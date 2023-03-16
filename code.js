@@ -8,6 +8,6 @@ function loginBttn() {
 	if (user == userT) {
 		if (pass == passT) {
 			window.location.href = "home/index.html";
-		}
-	}
+		};
+	};
 }
