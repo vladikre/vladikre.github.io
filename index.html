@@ -10,11 +10,19 @@
     <div>
         <h1>Login</h1>
         <form>
-            <input type="usermane" placeholder="usermane" required>
-            <input type="password" placeholder="password" required>
-            <button type="submit">Login</button>
+            <input type="usermane" placeholder="usermane" id="username" required>
+            <input type="password" placeholder="password"id="password" required>
+            <button type="submit" onclick="login">Login</button>
         </form>
     </div> 
-    <div></div>    
+    <div>
+    </div>
+    <script>
+        function login() {
+            const usermane=document.getElementById('username').value;
+            const password=document.getElementById('password').value;
+            alert(usermane+' '+password)
+        }
+    </script>    
 </body>
 </html>
