@@ -13,9 +13,10 @@ body{
 
 
 .main-login-form {
-    background-color: rgb(206, 209, 209);
+    background-color: rgb(238, 242, 242);
     border: radius 10px;
     box-shadow: 0px 0px 10px 0xp #000;
     padding: 20px;
     width: 50%;
+    border-radius: 15px;
 }

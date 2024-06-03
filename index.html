@@ -20,6 +20,7 @@
     </div>
     <script>
         function login() {
+            event.preventDefault();
             document.getElementById('status').innerHTML=document.getElementById('username').value+' '+document.getElementById('password').value;
         }
     </script>    
