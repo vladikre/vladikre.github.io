@@ -12,7 +12,7 @@
         <form>
             <input type="username" placeholder="username" id="username" required>
             <input type="password" placeholder="password"id="password" required>
-            <div style="background-color: black; color: white; padding: 5px;" onclick="login">Login</div>
+            <button type="submit" onclick="login()">Login</button>
         </form>
         <p id='status'></p>
     </div> 
@@ -20,6 +20,7 @@
     </div>
     <script>
         function login() {
+            event.preventDefault();
             document.getElementById('status').innerHTML=document.getElementById('username').value+' '+document.getElementById('password').value;
         }
     </script>    
