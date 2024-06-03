@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('/dog-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,9 +8,6 @@ body{
     height: 100%;
     width: auto ;
 }
- 
-
-
 
 .main-login-form {
     background-color: rgb(238, 242, 242);
